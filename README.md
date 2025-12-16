@@ -57,3 +57,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Ok allora facciamo così, usiamo solo blade templates per le pagine del lato admin.
+ 
+Per il database adesso ti dirò tutto ciò che devo creare, solo le migrations, poi per i seeders ci si pensa dopo:
+
+Tabella countries con nome(name) e foto(country_img) di ogni nazione del mondo, collegabile ad ogni giocatore, squadra o campionato.
+
+Tabella leagues con league_name league_short_name league_official_name league_code league_type league_country_id league_continent league_logo_img league_trophy_img league_organizer league_founded_year league_first_season league_headquarters league_president league_ceo league_website teams_count league_format total_matches matchdays most_titles_team_id most_titles_count points_record points_record_team_id points_record_season goals_record goals_record_teami_id all_time_top_scorer all_time_top_scorer_goals appearances_record_holder appearances_record_count tv_broadcasters
+
+Tabella stadiums con stadium_name stadium_capacity attendance_record attendance_record attendance_record_date stadium_address stadium_img 
+
+Tabella clubs con full_name short_name commercial_name nicknames founded_date estimated_fans club_country_id city region country_code club_logo club_colors club_president club_ceo club_sporting_director club_team_manager club_owner club_owning_company club_value club_headquarters club_training_ground_name club_training_ground_address club_head_coach club_assistant_coaches club_fitness_coach club_goalkeeper_coach team_doctor physiotherapists captain_id vice_captain_id average_age 
